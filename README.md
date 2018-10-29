@@ -20,3 +20,23 @@ the factorial of 7 is 24
 the factorial of 7 is 120
 the factorial of 7 is 720
 the factorial of 7 is 5040
+
+
+s1='xyz'
+s2="@"
+s3='abc.com'
+email=s1+s2+s3
+print(s1*2)
+print(email)
+print(len(email))
+print(email.count("@"))
+print(email.endswith(".com"))
+print(email.find("@"))
+      
+OUTPUT:
+xyzxyz
+xyz@abc.com
+11
+1
+True
+3
